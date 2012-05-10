@@ -15,7 +15,7 @@ module Sorcery
             def self.included(base)
               base.module_eval do
                 class << self
-                  attr_reader :thecity                           # access to thecity_client.
+                  attr_reader :the_city                           # access to thecity_client.
                   
                   def merge_thecity_defaults!
                     @defaults.merge!(:@thecity => TheCityClient)
