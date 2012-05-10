@@ -3,12 +3,12 @@ module Sorcery
     module Submodules
       module External
         module Providers
-          # This module adds support for OAuth with facebook.com.
+          # This module adds support for OAuth with TheCity (www.onthecity.org).
           # When included in the 'config.providers' option, it adds a new option, 'config.facebook'.
           # Via this new option you can configure Facebook specific settings like your app's key and secret.
           #
-          #   config.facebook.key = <key>
-          #   config.facebook.secret = <secret>
+          #   config.thecity.key = <key>
+          #   config.thecity.secret = <secret>
           #   ...
           #
           module TheCity
